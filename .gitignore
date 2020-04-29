@@ -1,0 +1,7 @@
+*/bin/*
+*/obj/*
+.vs/**/project-cache/*
+.DS_Store
+TestResults/*
+output/*
+cicd-lab.tests/TestResults/*.trx
