@@ -132,6 +132,11 @@
           "Newtonsoft.Json": "9.0.1"
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+        "type": "Transitive",
+        "resolved": "1.10.8",
+        "contentHash": "LXlwvlXetgFg2sqsLCzi+Kd+nV78VrRzy9u6nKU05yx9tcsF9BcLqL/+vtj01Z7RPhp0U8D4Px/bHbyMR9Ddjg=="
+      },
       "Microsoft.Win32.Primitives": {
         "type": "Transitive",
         "resolved": "4.3.0",
@@ -1220,7 +1225,10 @@
         }
       },
       "cicd-lab": {
-        "type": "Project"
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.8"
+        }
       }
     }
   }
